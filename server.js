@@ -14,6 +14,7 @@ const STATIC = {
   "/docs":       { file: "docs/index.html",   mime: "text/html" },
   "/style.css":  { file: "docs/style.css",    mime: "text/css"  },
   "/logo.svg":   { file: "docs/logo.svg",     mime: "image/svg+xml" },
+  "/tester.js":  { file: "docs/tester.js",    mime: "text/javascript" },
 };
 
 function serveStatic(res, entry) {
